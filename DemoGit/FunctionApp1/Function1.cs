@@ -27,7 +27,7 @@ namespace FunctionApp1
 
             return name != null
                 ? (ActionResult)new OkObjectResult($"Hello, {name}")
-                : new BadRequestObjectResult("My Name is Khan");
+                : new BadRequestObjectResult("Tell Me your Name");
         }
     }
 }
